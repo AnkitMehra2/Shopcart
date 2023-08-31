@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+.Header{
+    color: white;
+  }
+  .mainh{
+    display: flex;
+    background-color: black;
+   margin-top: -5px;
+   margin-bottom: -5px;
+    padding: 4px;
+  }
+  .material-icons{
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 10px;
+  
+  letter-spacing: normal;
+  text-transform: none;
+  color: rgba(255, 255, 255, 0.344);
+  /* display: inline-block; */
+  white-space: nowrap;
+  margin-top: 13px;
+  margin-left: 70px;
+}
+  
+  .mainh h5{
+    margin-left: 60px;
+    color: rgba(255, 255, 255, 0.344);
+    font-weight: 200;
+    width: 500px;
+    margin-top: 15px
+  }
+  .mainh h6{
+    cursor: pointer;
+   margin-top: 12px;
+    margin-left: 40%;
+    color: rgba(255, 255, 255, 0.344);
+    font-weight: 200;
+    padding: 4px;  }
+  .second{
+    display: flex;
+    margin-top: -27px;
+    margin-bottom: 0px;
+  }
+  .second h2{
+    margin-left: 65%;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .connect{
+    margin-top: 10px;
+  }
+  .name{
+    cursor: pointer;
+    position: relative;
+    top: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    color: rgba(255, 255, 255, 0.773);
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+  }
+  .line{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 4px;
+  }
+  /* Reset some default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the navbar */
+.navbar {
+  list-style: none;
+  margin-left: 80px;
+  display: flex;
+  /* flex-direction: row; */
+  margin-top: 10px;
+}
+/* .navbar ul{
+  display: flex; */
+
+@media (max-width: 900px) {
+  .navbar{
+    display: none;
+  }
+}
+/* Style for navbar items */
+.navbar li {
+  margin-right: 40px;
+  position: relative;
+  width: 200px;
+  height: 28; 
+  font-size: 18px;
+  font-family: 'Work Sans'; 
+  font-weight: 1000; 
+}
+
+/* Style for navbar links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  width: 120px;
+  height: 28px; 
+  font-size: 20px;
+  font-family: 'Work Sans'; 
+  font-weight: 800; 
+}
+
+/* Style for dropdown menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  color: white;
+  z-index: 1;
+  width: 200px;
+}
+
+/* Style for dropdown items */
+.dropdown-menu li {
+  padding: 0px;
+  list-style: none;
+}
+
+/* Style for dropdown links */
+.dropdown-menu li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+/* Show the dropdown menu on hover */
+.navbar li:hover .dropdown-menu {
+  display: block;
+}

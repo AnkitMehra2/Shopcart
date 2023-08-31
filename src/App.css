@@ -1,10 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+
 .App {
   text-align: center;
 }
+body{
+  background-color: rgb(8, 5, 2);
+}
+.hamburger-menu {
+  display: none;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (max-width: 1000px) {
+  .hamburger-menu {
+    display: block;
+    font-size: 3.5rem;
+    justify-content: center;
+    margin-left: 90%;
+    margin-top: 90px;
+  }
+  .navbar{
+    display: none;
+  }
+  .mobile  {
+   display: flex;
+   flex-direction: column;
+    position: relative;
+    z-index: 99;
+    color: white;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-column: 2/5;
+    align-items: center;
+    padding-left: 3rem;
+    transition: all 2s linear;
+    transform-origin: top;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .mobile ul{
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+  }
+  .mainh{
+    font-size: 8px;
+    margin-left: -18%;
+  }
+  .mainh h6{
+    margin-left: -70%;
+
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
